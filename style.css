@@ -660,8 +660,8 @@ p {
 	font-size: 2rem;
 }
 #about .col-left .about-img {
-	height: 100%;
-	width: 100%;
+	/* height: 100%; */
+	width: 120%;
 	position: relative;
 	border: 10px solid rgb(255, 255, 255);
 	transition: .5s;
@@ -1094,6 +1094,10 @@ p {
 		padding-left: 60px;
 	}
 
+	#about .col-left .about-img {
+		/* height: 100%; */
+		width: 100%;
+	}
 	#about .about .col-left .about-img::after {
 		left: -45px;
 		top: 34px;
@@ -1182,6 +1186,10 @@ p {
 	#departmental-events .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
+	}
+	#about .col-left .about-img {
+		/* height: 100%; */
+		width: 100%;
 	}
 }
 /* End  Media Query For Desktop */
