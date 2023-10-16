@@ -421,22 +421,7 @@ p {
 	border-radius: 15px;
 }
 
-.button1{
-	align-self: center;
-	justify-self: center;
-	position: absolute;
-	z-index: 1;
-	transition: .4s;
-	border-radius: 15px;
-	padding: 15px;
-	border-radius: 30px;
-	background: rgba(0, 0, 0, .5);
-}
 
-.button1 .p{
-	
-	color: white;
-}
 
 
 
@@ -570,7 +555,7 @@ p {
 	color: white;
 	background-color: rgba(0, 0, 0, .3);
 	border: 2px solid crimson;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
